@@ -1,0 +1,9 @@
+git init
+git config --global user.name "Krystal555614"
+git config --global user.email "iampolice323@gmail.com"
+git add .
+git commit -m "Final Project Upload"
+git branch -M main
+git remote remove origin
+git remote add origin https://github.com/Krystal555614/my-portfolio
+git push -u origin main

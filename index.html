@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人作品集 | Portfolio</title>
+    <meta name="description" content="個人作品集網站 - 展示我的專案與技能">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">PORTFOLIO.</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">首頁</a></li>
+            <li><a href="#about">關於我</a></li>
+            <li><a href="#skills">技能</a></li>
+            <li><a href="#projects">作品集</a></li>
+            <li><a href="#contact">聯絡</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1 class="hidden">你好，我是 <br>創意開發者</h1>
+        <p class="hidden">專注於打造極致的使用者體驗與現代化網頁設計。</p>
+        <a href="#projects" class="btn hidden">查看作品</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="hidden">關於我</h2>
+        <div class="about-content hidden">
+            <div class="about-img"></div>
+            <div class="about-text">
+                <p>我是一名熱愛技術的前端開發者。我喜歡將創意轉化為程式碼，創造出既美觀又實用的網頁應用。在這個快速變化的數位世界中，我不斷學習新技術，致力於提供最佳的解決方案。</p>
+                <br>
+                <p>除了寫程式，我也喜歡攝影和探索新的設計趨勢。我相信好的設計不僅是視覺上的享受，更是解決問題的關鍵。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="hidden">專業技能</h2>
+        <div class="skills-grid">
+            <div class="skill-card hidden">
+                <i class="fab fa-html5 skill-icon"></i>
+                <h3>HTML5</h3>
+                <p>語意化標籤、SEO 優化</p>
+            </div>
+            <div class="skill-card hidden">
+                <i class="fab fa-css3-alt skill-icon"></i>
+                <h3>CSS3</h3>
+                <p>Flexbox, Grid, Animations</p>
+            </div>
+            <div class="skill-card hidden">
+                <i class="fab fa-js skill-icon"></i>
+                <h3>JavaScript</h3>
+                <p>ES6+, DOM 操作, 互動邏輯</p>
+            </div>
+            <div class="skill-card hidden">
+                <i class="fab fa-git-alt skill-icon"></i>
+                <h3>Git</h3>
+                <p>版本控制、團隊協作</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="hidden">精選作品</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card hidden">
+                <div class="project-img"></div>
+                <div class="project-info">
+                    <h3>個人履歷網站</h3>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JS</span>
+                    </div>
+                    <p>響應式設計的個人作品集，展示專業技能與專案經驗。包含深色模式與流暢的轉場動畫。</p>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card hidden">
+                <div class="project-img"></div>
+                <div class="project-info">
+                    <h3>攝影作品集</h3>
+                    <div class="project-tags">
+                        <span class="tag">Grid Layout</span>
+                        <span class="tag">Lightbox</span>
+                    </div>
+                    <p>使用 CSS Grid 打造的瀑布流攝影藝廊，具備圖片燈箱效果，完美呈現視覺作品。</p>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card hidden">
+                <div class="project-img"></div>
+                <div class="project-info">
+                    <h3>待辦事項清單</h3>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">LocalStorage</span>
+                    </div>
+                    <p>極簡風格的待辦事項應用，支援新增、刪除與狀態切換，並使用 LocalStorage 保存資料。</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="hidden">聯絡我</h2>
+        <div class="contact-container hidden">
+            <p>有任何合作機會或想聊聊技術嗎？歡迎透過以下方式聯繫我！</p>
+            <div class="social-links">
+                <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-btn"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
